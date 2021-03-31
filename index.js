@@ -16,18 +16,18 @@ console.log(string.toLowerCase());
 
 function sayHiToGrandma(string) {
 
-upper = string.toUpperCase();
-lower = string.toLowerCase();
+    const lower = string.toLowerCase();
+    const upper = string.toUpperCase();
 
-if (string === lower) {
-returns "I can't hear you!";
-}
+    if (string === lower) {
+        return "I can't hear you!";
+    }
 
-if (string === upper) {
-returns "YES INDEED!";
-}
+    if (string === upper) {
+        return "YES INDEED!";
+    }
 
-if ( string === "I love you, Grandma."){
-returns "I love you, too.";
-}
+    if ( string === "I love you, Grandma."){
+        return "I love you, too.";
+    }
 }
